@@ -20,5 +20,7 @@ assert maVariable.getClass() == String.class
 //Avez vous remarqué le mot clef assert ?
 // Qu'est-ce que cela fait ?
 // Décommenter les lignes suivantes pour le savoir
+/*
 String langageName = "Boofy"
 assert langageName == "Groovy": "la raison de cette erreur est que le nom du langage n'est pas correct."
+*/
