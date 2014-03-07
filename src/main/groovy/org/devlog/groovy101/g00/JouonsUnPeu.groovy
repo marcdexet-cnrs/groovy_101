@@ -1,14 +1,24 @@
 package org.devlog.groovy101.g00
 
 // afficher, c'est l'instruction print
-println "une ligne"
+println "l'instruction 'println' permet d'imprimer une ligne à l'écran"
+println "une chaîne de caractères"
+println 10
 
-// une d�finition paresseuse avec le mot clef def 
-def sum = 1+2
-println sum
-println "sum est de type "+sum.getClass()
+// Avec println tu sais déjà faire un HelloWorld
 
-// une d�finition exacte
-String str;
-str = "voici une chaine"
-println "Le contenu de str est: $str"
+/***********************************************************
+* Definition des variables 
+************************************************************/
+
+// La version paresseuse
+def maVariable = "un chaine"
+
+// Laisson Groovy deviner la bonne classe
+assert maVariable.getClass() == String.class
+
+//Avez vous remarqué le mot clef assert ?
+// Qu'est-ce que cela fait ?
+// Décommenter les lignes suivantes pour le savoir
+String langageName = "Boofy"
+assert langageName == "Groovy": "la raison de cette erreur est que le nom du langage n'est pas correct."
