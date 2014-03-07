@@ -8,6 +8,7 @@
 /*
  * Chaine simple quote sans interpolation
  */
+
 def str0 = 'une chaine simple et directe'
 def myName = 'Bond, James Bond'
 
@@ -16,6 +17,8 @@ def myName = 'Bond, James Bond'
 */
 def str1 ="My name is $myName"
 println str1
+
+
 
 /*
  * chaine sur plusieurs lignes : 3 quotes
@@ -26,3 +29,16 @@ seconde ligne
 dernière ligne"""
 
 println str2
+
+/*
+ * Il est possible de le faire directement avec un print ou un println
+ */
+ 
+println """
+-----------------------------------------------------------
+
+  My name is $str1
+
+-----------------------------------------------------------
+
+"""
